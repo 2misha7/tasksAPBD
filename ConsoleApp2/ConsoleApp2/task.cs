@@ -3,12 +3,12 @@
 public class task
 {
     public static double CalcAverage(int[] numbers)
-    {   var thisSum = 0;
+    {   var sum = 0;
         foreach (int num in numbers)
         {
-            thisSum += num;
+            sum += num;
         }
-        return (double)thisSum / numbers.Length;
+        return (double)sum / numbers.Length;
     }
     
     public static int FindMax(int[] numbers)
